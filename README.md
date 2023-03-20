@@ -58,7 +58,9 @@ model = Doc2Vec.load(r'modelpath')
 similarity_between = model.wv.similarity(word1, cut_word) #计算相似值
 ```
 长一点的文本可以分词处理，就是寻找有没有最相似词。
+
 ![](img/8.jpeg)
+
 ![](img/9.jpeg)
 
 可以看到效果还是很明显的，语言和用语的相似性达到了82%，而第二个计算结果没有大于30%的。
