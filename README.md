@@ -68,6 +68,17 @@ similarity_between = model.wv.similarity(word1, cut_word) #计算相似值
 # 第一批图谱
 ![](img/10.jpeg)
 这是我的第一批数据，他让我信心倍增，不过看起来很单调，我觉得修改他们的标签属性，然后将原有标签用其他属性储存。
+**修改后的效果**
+
+![](img/11.jpeg)
+
+![](img/12.jpeg)
+
+![](img/13.jpg)
+
+
+
+
 
 
 
