@@ -76,7 +76,7 @@ similarity_between = model.wv.similarity(word1, cut_word) #计算相似值
 
 ![](img/13.jpg)
 
-
+是不是看起来好一些了
 
 
 
