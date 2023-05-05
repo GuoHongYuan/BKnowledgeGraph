@@ -1,3 +1,8 @@
+# 第二批，250W实体+关系
+excel类型，包含实体和关系，这份数据通过sql优化了结构，
+  CALL apoc.export.csv.query("MATCH (n)-[r]-(m) RETURN id(n),n.entity_name,labels(n)[0],type(r),id(m),m.entity_name,labels(m)", "all_entities_and_relations.csv", {})
+在250w_data里面有下载链接
+
 # 第一批100w实体的图谱数据
 我存在了百度云盘里面，方便下载使用，他是5.5版本的neo4j数据压缩制作而成，解压后直接放在neo4j安装路径下的data文件夹中即可,登录密码和下载链接都在100w_data文件夹里面,因为密码也在数据库里面，所以需要用和我一样的密码，登上去在修改即可
 
