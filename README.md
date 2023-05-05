@@ -1,6 +1,6 @@
 # 第二批，250W实体+关系
 excel类型，包含实体和关系，这份数据通过sql优化了结构，
-  CALL apoc.export.csv.query("MATCH (n)-[r]-(m) RETURN id(n),n.entity_name,labels(n)[0],type(r),id(m),m.entity_name,labels(m)", "all_entities_and_relations.csv", {})
+ - CALL apoc.export.csv.query("MATCH (n)-[r]-(m) RETURN id(n),n.entity_name,labels(n)[0],type(r),id(m),m.entity_name,labels(m)", "all_entities_and_relations.csv", {})
 在250w_data里面有下载链接
 
 # 第一批100w实体的图谱数据
